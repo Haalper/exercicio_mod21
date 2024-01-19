@@ -1,0 +1,65 @@
+
+.hero {
+    height: 80vh;
+    width: 100%;
+    background-image: url('Imagens/great_gatsby_ver7_xlg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    overflow-x: hidden;
+}
+
+
+.details {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.details__section {
+    margin-bottom: 20px;
+}
+
+.buy {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buy__title {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.buy__content {
+    margin-bottom: 20px;
+}
+
+.buy__btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #251bb8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;;
+    width: 100%;
+}
